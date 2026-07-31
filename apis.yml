@@ -1,7 +1,27 @@
 aid: niramai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/niramai.png
 name: Niramai
-description: Niramai is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  NIRAMAI Health Analytix is a Bangalore, India based deep-tech healthcare company that
+  develops AI-powered, radiation-free breast cancer screening solutions. Its core product,
+  Thermalytix, uses machine learning and deep learning to analyze thermal images of the
+  chest for early-stage tumor detection, complemented by the FDA-cleared SMILE-100 thermal
+  imaging device and the Mythri mobile screening service for primary healthcare settings.
+  The company reports 40+ patents, 55+ clinical publications, and 500,000+ women screened
+  across 22+ countries. Backed by 500 Global. As of this enrichment pass, Niramai publishes
+  no public API, developer portal, SDK, or documentation surface; this profile captures its
+  company identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/niramai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Artificial Intelligence
+- Machine Learning
+- Medical Imaging
+- Breast Cancer Screening
+- Diagnostics
+- HealthTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/niramai-domain-security.yml
 - type: Website
   url: https://niramai.com
+- type: Support
+  url: https://niramai.com/contact/
+- type: TermsOfService
+  url: https://niramai.com/terms-of-use-and-privacy-policy
+- type: PrivacyPolicy
+  url: https://niramai.com/terms-of-use-and-privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
