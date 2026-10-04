@@ -47,7 +47,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Medical Imaging
 - Breast Cancer Screening
 - Diagnostics
@@ -61,6 +61,7 @@ tags_raw:
 - Breast Cancer Screening
 - Diagnostics
 - HealthTech
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
